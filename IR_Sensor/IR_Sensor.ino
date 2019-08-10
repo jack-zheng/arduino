@@ -16,7 +16,7 @@ void setup()
 void loop()
 {
 
-  if ( digitalRead(sensor) == LOW) // when there is any obstacle, output turn to low
+  if ( digitalRead(sensor) == LOW) // when there is any obstacle, output turn to l
   {
     digitalWrite(led, LOW);
   }
